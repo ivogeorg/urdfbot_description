@@ -46,6 +46,8 @@
         <child link="head_link"/>
         <axis xyz="0 0 1"/>
         <limit effort="100" velocity="1.0" lower="-1.57" upper="1.57"/>
+        <!-- calibration definition -->
+        <calibration rising="1.5" falling="-1.5" reference_position="0.0"/>
     </joint>
 
     <!-- <joint name="base_link_to_head_link_joint" type="prismatic">
