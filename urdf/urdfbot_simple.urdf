@@ -125,6 +125,7 @@
         <child link="claw_b_r_link"/>
         <axis xyz="0 0 1"/>
         <limit effort="100" velocity="1.0" lower="-0.7" upper="0.7"/>
+        <mimic joint="upper_arm_r_link_to_claw_a_r_link_joint" multiplier="1.0" offset="0.0"/>
     </joint>
 
 
